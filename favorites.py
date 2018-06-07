@@ -2,10 +2,10 @@ from __future__ import unicode_literals
 import tweepy
 import numpy
 
-ckey='aULojNkJve0mTEr2aTwYKCt3g'
-c_secret='TqYI59ruZgxiyLj4SB5Xtslf9jbcGd5Xif6GUeBk5kVW33uSzi'
-atoken='713904872568045569-cUqEJaoQy2fYgg4bdQ98ME1HmujoC84'
-atokensecret='swuXr6SD7u2EGNM6DMZoSz5zcvnmvnBgxv4xDSVKlYg86'
+ckey= 'key'
+c_secret='secret'
+atoken='token'
+atokensecret='token_secret'
 auth = tweepy.OAuthHandler(ckey, c_secret)
 auth.set_access_token(atoken, atokensecret)
 
